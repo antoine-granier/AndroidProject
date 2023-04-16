@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentContact">
+
+    <fragment
+        android:id="@+id/fragmentContact"
+        android:name="com.example.final_projet_android.ui.main.FragmentContact"
+        android:label="FragmentContact" >
+        <action
+            android:id="@+id/action_fragmentContact_to_fragmentMessage"
+            app:destination="@id/fragmentMessage" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentMessage"
+        android:name="com.example.final_projet_android.ui.main.FragmentMessage"
+        android:label="FragmentMessage" />
+</navigation>

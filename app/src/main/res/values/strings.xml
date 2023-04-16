@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Final_Projet_Android</string>
+    <string name="tab_text_1">Contact</string>
+    <string name="tab_text_2">Message</string>
+    <string name="tab_text_3">SMS</string>
+    <string name="tel">Tel</string>
+    <string name="name">Name</string>
+    <string name="contacts">Contacts..</string>
+    <string name="load">Load</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="add">Add</string>
+</resources>
